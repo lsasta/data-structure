@@ -1,0 +1,80 @@
+*.vspscc
+[Bb]in
+[Dd]ebug*/
+obj/
+[Rr]elease*/
+_ReSharper*/
+packages/
+*.suo
+*.log
+*.user
+src/WebDissectorV3Demo/UpgradeLog.htm
+bower_components*/
+node_modules*/
+.vs/
+aspnet5_nlog/
+project.lock.json
+applicationhost.config
+**/wwwroot/lib
+
+.classpath/
+.externalToolBuilders/
+.project/
+.settings/
+build/
+.idea/
+logs/
+target/
+*.iml
+*.orig
+*~
+*.tmp
+*.pyc
+
+#####################################
+# Copy from https://github.com/github/gitignore/
+# Ignore java and scala output files. 
+#####################################
+*.class
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+# Package Files #
+*.jar
+*.war
+*.ear
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml 
+hs_err_pid*
+
+# sbt specific
+.cache/
+.history/
+.lib/
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+!/spark-wd-integrationtest/hadoop-lib/*.dll
+!spark-wd-integrationtest/hadoop-lib/*.pdb
+!spark-wd-integrationtest/hadoop-lib/*.exe
+!spark-wd-integrationtest/hadoop-lib/*.lib
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/src/JumpServer/project.lock.json
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/src/TestServer/project.lock.json
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/src/TrackerServer/project.lock.json
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/packages
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/packages/*/*/lib/*/*.dll
+!spark-wd-integrationtest/src/test/resources/trackerserver/wwwroot/bin
+!spark-wd-integrationtest/src/test/resources/trackerserver/wwwroot/bin/*.dll
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/runtimes/dnx-clr-win-x86.1.0.0-beta7/bin
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/runtimes/dnx-clr-win-x86.1.0.0-beta7/bin/*.dll
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/runtimes/dnx-clr-win-x86.1.0.0-beta7/bin/*.exe
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/runtimes/dnx-clr-win-x86.1.0.0-beta7/bin/lib/Microsoft.Dnx.DesignTimeHost/*.dll
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/runtimes/dnx-clr-win-x86.1.0.0-beta7/bin/lib/Microsoft.Dnx.Project/*.dll
+!spark-wd-integrationtest/src/test/resources/trackerserver/approot/runtimes/dnx-clr-win-x86.1.0.0-beta7/bin/lib/Microsoft.Dnx.Tooling/*.dll
+spark-wd-etl/src/main/java/
+weblog-parser-wd/src/main/java/
+spark-wd-etl-post-process/src/main/java/
+wd-external-data-store/src/main/java/
