@@ -6,7 +6,7 @@ object AllSortTest {
 
   def main(args: Array[String]): Unit = {
 
-    val nums = 80000
+    val nums = 8000000
     val arr:Array[Int] = Array.ofDim(nums)
     for(i <- 0 until nums){
       arr(i) = Random.nextInt(nums)
@@ -25,7 +25,12 @@ object AllSortTest {
     start = System.currentTimeMillis()
     InsertSort.insertSortBubble(arr.clone())
     end = System.currentTimeMillis()
-    println("insertSortBubble time is :" + (end - start))
+    println("insertSort time is :" + (end - start))
+
+    start = System.currentTimeMillis()
+    ShellSort.shellSort2(arr.clone())
+    end = System.currentTimeMillis()
+    println("ShellSort time is :" + (end - start))
   }
 
 }
